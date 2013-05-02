@@ -21,7 +21,7 @@ public class Context {
   static {
     //load default property file
     loadPropertiesFile("/api.properties");
-    //loadPropertiesFile("/project.properties");
+    loadPropertiesFile("/app.properties");
     loadPropertiesFile("/report.properties");
     //loadPropertiesFile("/rawdata.properties");
 //    loadPropertiesFile("/table.properties");
